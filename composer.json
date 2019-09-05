@@ -1,0 +1,27 @@
+{
+    "name": "schnitzler/mysql-column-analyser",
+    "description": "",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexander Schnitzler",
+            "email": "git@alexanderschnitzler.de"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.9",
+        "symfony/console": "^4.3",
+        "symfony/dotenv": "^4.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15",
+        "symfony/var-dumper": "^4.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": { "Schnitzler\\MysqlColumnAnalyzer\\": "src/" }
+    }
+}
